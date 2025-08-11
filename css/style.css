@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    padding: 0px 20px;
+}
+
+.p-0{
+    padding: 0px;
+}
+.float-left{
+    float: left;
+
+}
+
+.text-center{
+    text-align: center;
+}
+
+.d-inline-block{
+    display: inline-block;
+}
+
+.d-block{
+    display: block;
+}
+
+header{
+    padding: 15px;
+    height: 90px;
+    background-color: rgb(238, 237, 237);
+}
+
+.logo{
+    width: 20%;
+}
+
+.logo img{
+    width: 60%;
+}
+
+
+.searchbox{
+    width: 60%;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.searchbox input{
+    width: 80%;
+    border: none;
+    padding: 10px;
+    border-radius: 16px;
+    background-color: #cccccc;
+}
+
+.btn{
+    width: 10%;
+    padding: 10px 0px;
+}
+
+.btn .postbtn{
+    padding: 8px 16px;
+    border-radius: 16px;
+    border: none;
+    background: linear-gradient(268deg,rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    color: white;
+}
+
+.icon{
+    width: 10%;
+    padding: 10px 0px;
+}
+
+.icon .notification{
+    font-size: 25px;
+}
+
+.sidebar{
+    width: 20%;
+    height: 100vh;
+    background-color: grey;
+}
+
+.main-area{
+    width: 80%;
+    height: 100vh;
+    /* background-color: wheat; */
+}
+
+.main-area .feed-area{
+    width: 60%;
+    height: 100vh;
+    /* background-color: aquamarine; */
+}
+
+.main-area .suggetions-area{
+    width: 40%;
+    height: 100vh;
+    background-color: yellow;
+}
+
+ .main-area .stories{
+    padding: 8px;
+ }
+
+
+.main-area .stories .user-story{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(212, 174, 174);
+    border-radius: 50%;
+    display: inline-block;
+    overflow: hidden;
+    border: 5px solid grey;
+    margin-right: 5px;
+}
+
+.user-story img{
+    width: 100%;
+}
